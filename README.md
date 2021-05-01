@@ -9,9 +9,10 @@ Retinal vessels are important biomarkers for many ophthalmological and cardiovas
 3. Build Caffe
 4. Modify dpn.prototxt and list files to make sure that training data is accessible.
 5. Start training
-		```bash
-		$CAFFE_ROOT/build/tools/caffe train --solver solver.prototxt --gpu 0
-		```
+
+```bash
+  $CAFFE_ROOT/build/tools/caffe train --solver solver.prototxt --gpu 0
+```
 
 # Test
 Run python test.py
